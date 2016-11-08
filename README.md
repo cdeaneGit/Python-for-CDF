@@ -53,7 +53,7 @@ python /fullpath/bookprep_preview.php  /fullpath/target_directory > /fullpath/pr
 
 When perfect (or perfect enough) run bookprep.php:
 
-php /fullpath/booprep.php /fullpath/target_directory
+php /fullpath/booprep.php /fullpath/target_directory  jp2|tiff
 
 ---------------------
 bookprep_pagecount.py
