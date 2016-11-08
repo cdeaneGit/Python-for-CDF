@@ -92,6 +92,6 @@ directory book_pdfs     -- all the pdf files
 directory bookprep_done -- files after running bookprep.php
 
 commandline:
-python /fullpath/add_pdfs.py  /fullpath/book_pdfs  /fullpath/bookprep_done
+python /fullpath/add_pdfs.py  /fullpath/book_pdfs  /fullpath/bookprep_done after
 
 This can be revised to add other kinds of supplemental datastreams.
