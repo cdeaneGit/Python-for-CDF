@@ -89,6 +89,7 @@ This program is actually a rip off from one of the other programs, because I am 
 
 
 directory book_pdfs     -- all the pdf files
+
 directory bookprep_done -- files after running bookprep.php
 
 commandline:
