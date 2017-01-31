@@ -99,8 +99,7 @@ python /fullpath/add_pdfs.py  /fullpath/book_pdfs  /fullpath/bookprep_done after
 This can be revised to add other kinds of supplemental datastreams.
 
 ----------------------------
-exec_ingest_book_digital.py
-exec_ingest_book_dlwork.py
+exec_ingest_book_digital.py, exec_ingest_book_dlwork.py
 ----------------------------
 
 These two programs are the same except for the ingest target server.
@@ -117,8 +116,7 @@ The LIVE option is to go LIVE with the ingest.
 I highly recommend running first without the LIVE option because the script will print out your drush command for review.
 
 ----------------------------
-exec_ingest_video_digital.py
-exec_ingest_video_dlwork.py
+exec_ingest_video_digital.py, exec_ingest_video_dlwork.py
 ----------------------------
 
 These two programs are the same except for the ingest target server.
