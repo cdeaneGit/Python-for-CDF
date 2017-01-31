@@ -97,3 +97,39 @@ commandline:
 python /fullpath/add_pdfs.py  /fullpath/book_pdfs  /fullpath/bookprep_done after
 
 This can be revised to add other kinds of supplemental datastreams.
+
+----------------------------
+exec_ingest_book_digital.py
+exec_ingest_book_dlwork.py
+----------------------------
+
+These two programs are the same except for the ingest target server.
+drush commands are built from command line arguments to do islandora batch preprocess and batch ingest for books.
+These are wrapped inside a timeing loop to provide a report at the end of each preprocess-ingest cycle on processing time.
+Complete documentation inside the scripts.
+
+commandline:
+
+python /fullpath/exec_ingest_book_digital.py /fullpath/source_directory [LIVE]
+python /fullpath/exec_ingest_book_dlwork.py  /fullpath/source_directory [LIVE]
+
+The LIVE option is to go LIVE with the ingest.
+I highly recommend running first without the LIVE option because the script will print out your drush command for review.
+
+----------------------------
+exec_ingest_video_digital.py
+exec_ingest_video_dlwork.py
+----------------------------
+
+These two programs are the same except for the ingest target server.
+drush commands are built from command line arguments to do islandora batch preprocess and batch ingest for videos.
+These are wrapped inside a timeing loop to provide a report at the end of each preprocess-ingest cycle on processing time.
+Complete documentation inside the scripts.
+
+commandline:
+
+python /fullpath/exec_ingest_video_digital.py /fullpath/source_directory [LIVE]
+python /fullpath/exec_ingest_video_dlwork.py  /fullpath/source_directory [LIVE]
+
+The LIVE option is to go LIVE with the ingest.
+I highly recommend running first without the LIVE option because the script will print out your drush command for review.
