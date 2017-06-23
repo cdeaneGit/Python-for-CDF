@@ -9,7 +9,10 @@
 # .........BEFORE you run book prep
 
 #commandline:
-#python  /fullpath/bookprep_preview.py  /fullpath/bookprep_target/  > /fullpath/preview.txt
+# python argv[0]                         argv{1]                  > output_file
+# python pgm                             source_directory         > you_name_this.txt
+# python fullpath/bookprep_preview.py    fullpath/bookprep_target > fullpath/preview.txt
+
 
 ###############################FUNCTION###########################
 # nPrint=0 #no print option for create_previewList
