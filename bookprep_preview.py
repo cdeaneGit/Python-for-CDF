@@ -80,7 +80,7 @@ PreviewList=create_PreviewList(0)
 
 if (os.path.isdir(source_dir) == False) :
         print "source_dir: no such directory: "+source_dir
-        print "usage: python "+pgm+" source_dir target_dir "
+        print "usage: python "+pgm+" source_dir " ##target_dir "
         sys.exit(0)
         #
         #
